@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VariaveisGlobais.h"
 
 @interface ViewController : UIViewController
+- (IBAction)play:(id)sender;
+- (IBAction)pause:(id)sender;
+- (IBAction)stop:(id)sender;
 
 @end

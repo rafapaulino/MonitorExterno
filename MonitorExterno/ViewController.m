@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //self.view.alpha = 0;
 }
 
 - (void)viewDidUnload
@@ -31,4 +33,21 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)play:(id)sender
+{
+    
+    [[VariaveisGlobais shared].video play];
+}
+
+- (IBAction)pause:(id)sender
+{
+    [[VariaveisGlobais shared].video pause];
+
+}
+
+- (IBAction)stop:(id)sender
+{
+    [[VariaveisGlobais shared].video stop];
+
+}
 @end

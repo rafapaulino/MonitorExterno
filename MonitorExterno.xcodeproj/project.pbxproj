@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1683FA162EE29900034FB1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1683F9162EE29900034FB1 /* MediaPlayer.framework */; };
+		6A1683FD162EE2CD00034FB1 /* meuFilme.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 6A1683FC162EE2CD00034FB1 /* meuFilme.m4v */; };
+		6A168403162EE38500034FB1 /* VariaveisGlobais.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A168402162EE38500034FB1 /* VariaveisGlobais.m */; };
 		6A5586D0162DAC0200305A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5586CF162DAC0200305A4E /* UIKit.framework */; };
 		6A5586D2162DAC0200305A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5586D1162DAC0200305A4E /* Foundation.framework */; };
 		6A5586D4162DAC0200305A4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5586D3162DAC0200305A4E /* CoreGraphics.framework */; };
@@ -33,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1683F9162EE29900034FB1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6A1683FC162EE2CD00034FB1 /* meuFilme.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = meuFilme.m4v; path = ../../../../Downloads/mod3/mod3arquivos/meuFilme.m4v; sourceTree = "<group>"; };
+		6A168401162EE38500034FB1 /* VariaveisGlobais.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariaveisGlobais.h; sourceTree = "<group>"; };
+		6A168402162EE38500034FB1 /* VariaveisGlobais.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariaveisGlobais.m; sourceTree = "<group>"; };
 		6A5586CB162DAC0200305A4E /* MonitorExterno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitorExterno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5586CF162DAC0200305A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A5586D1162DAC0200305A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1683FA162EE29900034FB1 /* MediaPlayer.framework in Frameworks */,
 				6A5586D0162DAC0200305A4E /* UIKit.framework in Frameworks */,
 				6A5586D2162DAC0200305A4E /* Foundation.framework in Frameworks */,
 				6A5586D4162DAC0200305A4E /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +89,10 @@
 		6A5586C0162DAC0200305A4E = {
 			isa = PBXGroup;
 			children = (
+				6A168401162EE38500034FB1 /* VariaveisGlobais.h */,
+				6A168402162EE38500034FB1 /* VariaveisGlobais.m */,
+				6A1683FC162EE2CD00034FB1 /* meuFilme.m4v */,
+				6A1683F9162EE29900034FB1 /* MediaPlayer.framework */,
 				6A5586D5162DAC0200305A4E /* MonitorExterno */,
 				6A5586F3162DAC0300305A4E /* MonitorExternoTests */,
 				6A5586CE162DAC0200305A4E /* Frameworks */,
@@ -224,6 +236,7 @@
 			files = (
 				6A5586DA162DAC0200305A4E /* InfoPlist.strings in Resources */,
 				6A5586E3162DAC0200305A4E /* MainStoryboard.storyboard in Resources */,
+				6A1683FD162EE2CD00034FB1 /* meuFilme.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 				6A5586DC162DAC0200305A4E /* main.m in Sources */,
 				6A5586E0162DAC0200305A4E /* AppDelegate.m in Sources */,
 				6A5586E6162DAC0200305A4E /* ViewController.m in Sources */,
+				6A168403162EE38500034FB1 /* VariaveisGlobais.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +448,7 @@
 				6A558700162DAC0300305A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A558701162DAC0300305A4E /* Build configuration list for PBXNativeTarget "MonitorExternoTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +457,7 @@
 				6A558703162DAC0300305A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
